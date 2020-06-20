@@ -1,0 +1,9 @@
+.repository-input {
+    height: 40px;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    padding-left: 12px;
+    color: #000;
+}

@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #26262B;
+  color: #FFF;
+}
+
+*, input, button {
+  outline: 0;
 }
 
 body {
@@ -10,12 +16,12 @@ body {
 
 div {
   width: 100%;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 div li {
   display: flex;
-  align-items: center;
+  align-items: stretch;
 }
 
 div li + li {
@@ -28,12 +34,35 @@ button {
   border: 0;
   padding: 10px 15px;
   cursor: pointer;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 6px;
 }
 
 div li button {
   margin: 0 15px;
   background: #ca4949;
+}
+
+.container {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-input {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #56545c;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+
+.rightside{
+  margin-left: 35px;
 }
